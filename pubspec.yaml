@@ -1,0 +1,37 @@
+﻿name: final66117938
+description: Final Exam 2568 (SQLite + Firebase + AI)
+publish_to: "none"
+version: 1.0.0+1
+
+environment:
+  sdk: ">=3.2.0 <4.0.0"
+
+dependencies:
+  flutter:
+    sdk: flutter
+
+  # SQLite
+  sqflite: ^2.3.3
+  path: ^1.9.0
+  path_provider: ^2.1.5
+
+  # Firebase
+  firebase_core: ^3.6.0
+  cloud_firestore: ^5.4.4
+
+  # Image
+  image_picker: ^0.8.9
+
+  # AI (TFLite)
+  # flutter_tflite: ^1.0.1  # Commented out - incompatible with modern Android Gradle Plugin
+
+  # Time format
+  intl: ^0.19.0
+
+dev_dependencies:
+  flutter_test:
+    sdk: flutter
+  flutter_lints: ^6.0.0
+
+flutter:
+  uses-material-design: true
